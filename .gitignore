@@ -1,0 +1,17 @@
+#Ignorar la carpeta de dependencias de Node.js
+node_modules/
+
+# ignorar variables de entorno (contraseñas, API keys, etc.)
+.env
+
+#Ignorar caché de logs y archivos de depuración
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+#Ignorar archivos del editor (VS Code, macOS, Linux, Windows)
+.vscode/
+.DS_Store
+Thumbs.db
